@@ -12,3 +12,4 @@
 * Biryani
 * Hamburgers
 * Pizza
+[Link to MyStats](https://github.com/BandiRamNiteeshReddy/my-Bandi/blob/main/MyStats.md)
