@@ -25,7 +25,9 @@
 >“If we knew what it was we were doing, it would not be called research, would it?” – *Albert Einstein* 
 # Code Fencing
 >Test if String Starts With Certain Characters in PHP<br>
+
 > Stackoverflow link <https://stackoverflow.com/questions/2790899/how-to-check-if-a-string-starts-with-a-specified-string><br>
+
 >We can test if a certain string is the exact start of another string:<br>
 ```
 <?php 
@@ -59,4 +61,5 @@ function startsWith($string, $startString) {
   return preg_match('#^' . $startString . '#', $string) === 1;
 }
 ```
+
 > Snippet Source link <https://css-tricks.com/snippets/php/test-if-string-starts-with-certain-characters-in-php/>
