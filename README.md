@@ -20,4 +20,6 @@
 |Cricket|Helps in Managment|10hrs|
 |Running|Improves strength|10hrs|
 |Jogging|Improves breath intake|20hrs|
-#
+# Pithy Quotes
+>“Everything is theoretically impossible until it is done.” – *Robert A. Heinlein*<br>
+>“If we knew what it was we were doing, it would not be called research, would it?” – *Albert Einstein* 
