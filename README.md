@@ -23,3 +23,40 @@
 # Pithy Quotes
 >“Everything is theoretically impossible until it is done.” – *Robert A. Heinlein*<br>
 >“If we knew what it was we were doing, it would not be called research, would it?” – *Albert Einstein* 
+# Code Fencing
+>Test if String Starts With Certain Characters in PHP<br>
+> Stackoverflow link <https://stackoverflow.com/questions/2790899/how-to-check-if-a-string-starts-with-a-specified-string><br>
+>We can test if a certain string is the exact start of another string:<br>
+'''
+<?php 
+  
+function startsWith($string, $startString) { 
+  $len = strlen($startString); 
+  return (substr($string, 0, $len) === $startString); 
+} 
+
+// usage
+echo startsWith("cat", "c"); // true
+echo startsWith("dog", "x"); // false
+
+?> 
+'''
+>Testing the position in the string, making sure it’s at 0, works too:<br>
+'''
+function startsWith($string, $startString) {
+  return strpos($string, $startString) === 0;
+}
+'''
+>The strncmp function is also directly for this purpose:<br>
+'''
+function startsWith($string, $startString) {
+  return strncmp($string, $startString, strlen($startString)) === 0;
+}
+'''
+>You can always RegEx too!<br>
+'''
+function startsWith($string, $startString) {
+  return preg_match('#^' . $startString . '#', $string) === 1;
+}
+'''
+> Snippet Source link <https://css-tricks.com/snippets/php/test-if-string-starts-with-certain-characters-in-php/>
