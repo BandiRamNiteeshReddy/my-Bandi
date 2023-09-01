@@ -54,9 +54,9 @@ function startsWith($string, $startString) {
 }
 '''
 >You can always RegEx too!<br>
-'''
+>```
 function startsWith($string, $startString) {
   return preg_match('#^' . $startString . '#', $string) === 1;
 }
-'''
+>```
 > Snippet Source link <https://css-tricks.com/snippets/php/test-if-string-starts-with-certain-characters-in-php/>
