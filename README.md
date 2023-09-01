@@ -12,7 +12,9 @@
 * Biryani
 * Hamburgers
 * Pizza<br>
-[Link to MyStats](https://github.com/BandiRamNiteeshReddy/my-Bandi/blob/main/MyStats.md)
+
+>[Link to MyStats](https://github.com/BandiRamNiteeshReddy/my-Bandi/blob/main/MyStats.md)
+
 # Sports and Games
 |Sport or game|Reason|Hours per Week|
 | :---: | :---: | :---: |
