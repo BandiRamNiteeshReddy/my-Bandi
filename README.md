@@ -16,6 +16,8 @@
 >[Link to MyStats](https://github.com/BandiRamNiteeshReddy/my-Bandi/blob/main/MyStats.md)
 
 # Sports and Games
+> Sports and games I recommend and their advantages<br>
+
 |Sport or game|Reason|Hours per Week|
 | :---: | :---: | :---: |
 |Swimming|Improves body structure|20hrs|
